@@ -328,10 +328,6 @@ application menu to:
 
 - **jsxSingleQuote** (default: ***false***)  
     Use single quotes instead of double quotes in JSX.
-
-- **parser** (default: "***babel***")  
-    The [`parser`] is automatically set by the plug-in (JsPrettier), based
-    on the contents of current file or selection.
   
 - **semi** (default: ***true***)  
     ***true*** to add a semicolon at the end of every line, or ***false*** to
@@ -492,7 +488,6 @@ you'll need to add a new `js_prettier` key and section under `settings`, as [see
                 "bracketSpacing": true,
                 "bracketSameLine": false,
                 "jsxSingleQuote": false,
-                "parser": "babel",
                 "semi": true,
                 "requirePragma": false,
                 "proseWrap": "preserve",

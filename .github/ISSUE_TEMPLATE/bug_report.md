@@ -73,7 +73,6 @@ To view the generated prettier command line arguments you need to enable JsPrett
         --bracket-spacing true              \
         --bracket-same-line false           \
         --jsx-single-quote false            \
-        --parser babel                      \
         --semi true                         \
         --require-pragma false              \
         --prose-wrap preserve               \
@@ -109,7 +108,6 @@ For example, the following command passes the contents of `messy.js` to Prettier
         --bracket-spacing true              \
         --bracket-same-line false           \
         --jsx-single-quote false            \
-        --parser babel                      \
         --semi true                         \
         --require-pragma false              \
         --prose-wrap preserve               \
@@ -152,7 +150,6 @@ The entire contents of your ***User*** overridden JsPrettier Settings, excluding
             "bracketSpacing": true,
             "bracketSameLine": false,
             "jsxSingleQuote": false,
-            "parser": "babel",
             "semi": true,
             "requirePragma": false,
             "proseWrap": "preserve",
